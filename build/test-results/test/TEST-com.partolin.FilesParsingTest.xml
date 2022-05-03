@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.partolin.FilesParsingTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-05-03T22:38:35" hostname="MacBook-Pro-Alexey.local" time="7.582">
+  <properties/>
+  <testcase name="Проверка содержимого XLS файла" classname="com.partolin.FilesParsingTest" time="0.512"/>
+  <testcase name="Скачивание и проверка README.md" classname="com.partolin.FilesParsingTest" time="5.692"/>
+  <testcase name="Проверка содержимого CSV файла" classname="com.partolin.FilesParsingTest" time="0.025"/>
+  <testcase name="Проверка количества страниц и содержимого PDF файла" classname="com.partolin.FilesParsingTest" time="0.941"/>
+  <testcase name="Проверка файлов в ZIP архиве" classname="com.partolin.FilesParsingTest" time="0.408"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 62881
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 04, 2022 1:38:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+мая 04, 2022 1:38:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+мая 04, 2022 1:38:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+мая 04, 2022 1:38:42 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1058 (1058) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:42 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1077 (1077) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:42 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1089 (1089) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:42 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1090 (1090) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:42 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1086 (1086) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:42 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1074 (1074) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:42 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1099 (1099) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:42 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1081 (1081) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:42 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1092 (1092) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:42 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1072 (1072) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:42 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1083 (1083) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:43 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1058 (1058) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:43 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1077 (1077) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:43 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1089 (1089) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:43 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1090 (1090) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:43 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1086 (1086) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:43 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1074 (1074) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:43 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1099 (1099) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:43 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1081 (1081) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:43 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1092 (1092) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:43 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1072 (1072) in font TRHMDA+Times New Roman
+мая 04, 2022 1:38:43 AM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1083 (1083) in font TRHMDA+Times New Roman
+]]></system-err>
+</testsuite>
